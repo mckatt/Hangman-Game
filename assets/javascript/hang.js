@@ -12,7 +12,7 @@ var myLength = answer.length;
 var display=[myLength];
 var win = myLength;
 var letters = answer.split('');
-var attemptsLeft= 10;
+var attemptsLeft= 7;
 var output="";
 var userLetter="";
 
