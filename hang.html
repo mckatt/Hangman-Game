@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets\css\reset.css">
+    <link rel="stylesheet" href="assets\css\hang.css">
+
+    <!-- Add google custom font here -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+</head>
+<body>
+<header class="header">
+<h1>Very Lame Hangman</h1>
+</header>
+<main class="main">
+    <div class="message">
+        
+		<p id="guesses">Guess All The Letters In The Word Before The Dude Buys It.
+		</p>
+		<p id="game">&nbsp;</p>
+	</div>
+
+	<div class="enterForm">
+		<form name="form1">
+		<label class ="label ">Enter a Letter And Click Guess.
+    		<input name="letter" id="letter" type="text" size="3" maxlength="3"> </label>
+
+<input type="button" name="submit" id="submit" value="Guess!"></form>
+    </div> 
+        <div class="picture">
+            
+            <img src="assets\images\hangmanpic.png" class="border padding" alt="hangman stick figure">
+        </div>
+    </div>
+
+    
+</main>
+
+<div class="footer">
+    	&copy; WTF is this Noise Productions.
+    </div>	
+    
+<script src="assets\javascript\hang.js"></script>
+
+</body>
+</html>
